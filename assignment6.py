@@ -8,8 +8,8 @@ for i in range(10):
 
 print "QUESTION 2" 
 #QUESTION 2
-#while True:
-#    print "infinite"
+while True:
+    print "infinite"
 
 
 
