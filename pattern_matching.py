@@ -53,7 +53,7 @@ print y
 print "QUESTION 4" 
 #QUESTION 4
 tweet = 'Good advice!RT@TheNextWeb: What I would do differently if I was learning to code today http://t.co/lbwej0pxOd cc: @garybernhardt #rstats'
-num = re.sub(r'@[]a-zA-z]+:', " ", tweet)
+num = re.sub(r'@[a-zA-Z]+:', " ", tweet)
 a=re.sub(r"http.*"," ",num)
 w=re.sub(r"RT","",a)
 i=re.sub(r"!","",w)
