@@ -1,5 +1,7 @@
 import re
 
+print "QUESTION 1" 
+#QUESTION 1
 emails = "zuck26@facebook.com"
 e="page33@google.com"
 p="jeff42@amazon.com"
@@ -23,6 +25,9 @@ l.append(c)
 l.append(v)
 print "desired output =",l
 
+
+print "QUESTION 2" 
+#QUESTION 2
 text = "Betty bought a bit of butter, But the butter was so bitter, So she bought some better butter, To make the bitter butter better."
 regenex=r"[bBa-z]+"
 matches = re.findall(regenex,text)
@@ -35,6 +40,9 @@ for i in matches:
 print f
 
 
+
+print "QUESTION 3" 
+#QUESTION 3
 sentence = "A,very very;irregular_sentence"
 num = re.sub(r',', " ", sentence)
 b=re.sub(r'_'," ",num)
@@ -42,7 +50,8 @@ y=re.sub(r';'," ",b)
 print y
 
 
-
+print "QUESTION 4" 
+#QUESTION 4
 tweet = 'Good advice!RT@TheNextWeb: What I would do differently if I was learning to code today http://t.co/lbwej0pxOd cc: @garybernhardt #rstats'
 num = re.sub(r'@[]a-zA-z]+:', " ", tweet)
 a=re.sub(r"http.*"," ",num)
