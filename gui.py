@@ -70,8 +70,6 @@ enterEntry.pack()
  
 resultLabel = Label(root, text = "",bg="blue")
 resultLabel.pack()
- 
- 
-root.geometry("+750+400")
+
  
 root.mainloop()
